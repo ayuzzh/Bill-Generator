@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Developer Notes
+*.TODO
+*.notesTodo
