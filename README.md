@@ -4,11 +4,11 @@ billing system in hotels and restaurents.
 
 # How to compile
 
-1. Download the source code from github__
+1. Download the source code from github  
 ```git clone https://github.com/ayuzzh/Bill-Generator```
-2. Change the directory to source folder__
+2. Change the directory to source folder  
 ```cd Bill-Generator```
-3. make command to compile the source code__
+3. make command to compile the source code  
 ***Note: It is assumed that you have installed gcc and make packages***  
 ```make```
 
