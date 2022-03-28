@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "time.h"
 
 #include "macros.h"
 #include "misc.h"
@@ -37,7 +38,9 @@ main ()
       else
 	{
 	  PRINT << "That was inappropriate choice" << NEWLINE;
-	  PRINT << "Press Entre";
+	  PRINT << "Press any c or any key to continue: ";
+	  STRING tmp;
+	  INPUT >> tmp;
 	  clsrc ();
 	}
     }

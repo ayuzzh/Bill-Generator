@@ -34,3 +34,10 @@
 # Developer Notes
 *.TODO
 *.notesTodo
+
+# Binaries
+main
+
+# Backup files outputed by indent software
+*.h~
+*.cpp~
