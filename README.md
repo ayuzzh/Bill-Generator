@@ -12,5 +12,5 @@ billing system in hotels and restaurents.
 ***Note: It is assumed that you have installed gcc and make packages***  
 ```make```
 
-Now the compile binary is saved in root folder of source
+Now the compiled binary is saved in root folder of source
 directory with name "main".
