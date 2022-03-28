@@ -5,16 +5,18 @@
 #ifndef MISC_FUNCS
 #define MISC_FUNCS
 
-void clsrc()
+void
+clsrc ()
 {
-	PRINT << "\033[2J\033[1;1H";
+  PRINT << "\033[2J\033[1;1H";
 }
 
-STRING get_line_input()
+STRING
+get_line_input ()
 {
-        STRING line;
-        std::getline(INPUT, line);
-        return line;
+  STRING line;
+  std::getline (INPUT, line);
+  return line;
 }
 
 #endif
